@@ -1,0 +1,95 @@
+.headerText-1-WmDq {
+    text-align: center;
+  }
+  .headerTagNoNickname-3tGHj6 {
+    position: relative;
+    bottom: 5px;
+  }
+  .headerBotTagWithNickname-3DNCuU {
+    display: none;
+  }
+  .headerBotTag-1xw5Ck {
+    display: none;
+  }
+  .addButton-1_dZYu {
+    grid-column: 1 / span var(--roleslist-columns);
+  }
+  .addButton-1_dZYu::before {
+    content: attr(aria-label);
+    text-transform: capitalize;
+  }
+  .addButtonIcon-3HZ_2f {
+    display: center;
+  }
+  .addButton-1_dZYu {
+    width: 100px;
+  }
+  .rolesList-3uZoaa , .headerTextNormal-Z8we9g , .customStatus-3XAoF9{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .headerTagDiscriminatorNoNickname-dfcvHa{
+   display: none; 
+  }
+  .avatar-2Vndt_ {
+    position: relative;
+    left:  90px;
+    }
+    .textarea-_59yqs {
+      display:none;
+    }
+    .bodyTitle-2Az3VQ  {
+      display:none;
+      text-align:center;
+      
+    }
+    .wrapper-1VLyxH[aria-label*=Online i], .wrapper-1VLyxH[aria-label*=online i], .wrapper-1VLyxH[aria-label*=Conectado i], .wrapper-1VLyxH[aria-label*="En línea con móvil" i], .wrapper-1VLyxH[aria-label*="En ligne" i], .wrapper-1VLyxH[aria-label*="Na mreži" i],
+.avatarWrapper[data-status=online] .wrapper-1VLyxH {
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-online-color);
+}
+
+.wrapper-1VLyxH[aria-label*=Idle i], .wrapper-1VLyxH[aria-label*=Inaktiv i], .wrapper-1VLyxH[aria-label*=Abwesend i], .wrapper-1VLyxH[aria-label*=Ausente i], .wrapper-1VLyxH[aria-label*=Inactif i], .wrapper-1VLyxH[aria-label*="U mirovanju" i],
+.avatarWrapper[data-status=idle] .wrapper-1VLyxH {
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-idle-color);
+}
+
+.wrapper-1VLyxH[aria-label*="Do Not disturb" i], .wrapper-1VLyxH[aria-label*="Vil ikke forstyrres" i], .wrapper-1VLyxH[aria-label*="Bitte nicht stören" i], .wrapper-1VLyxH[aria-label*="No molestar" i], .wrapper-1VLyxH[aria-label*="Ne pas déranger" i], .wrapper-1VLyxH[aria-label*="Ne uznemiravaj" i],
+.avatarWrapper[data-status=dnd] .wrapper-1VLyxH {
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-dnd-color);
+}
+
+.wrapper-1VLyxH[aria-label*=Streaming i], .wrapper-1VLyxH[aria-label*=Streamer i], .wrapper-1VLyxH[aria-label*=Streamt i], .wrapper-1VLyxH[aria-label*=Transmitiendo i], .wrapper-1VLyxH[aria-label*="En direct" i],
+.avatarWrapper[data-status=streaming] .wrapper-1VLyxH {
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-streaming-color);
+}
+
+.wrapper-1VLyxH[aria-label*=Invisible i], .wrapper-1VLyxH[aria-label*=Usynlig i], .wrapper-1VLyxH[aria-label*=Unsichtbar i], .wrapper-1VLyxH[aria-label*="Nevidljiv/a" i],
+.avatarWrapper[data-status=invisible] .wrapper-1VLyxH {
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-invisible-color);
+}
+
+.wrapper-1VLyxH[aria-label*=Offline i], .wrapper-1VLyxH[aria-label*=Desconectado i], .wrapper-1VLyxH[aria-label*="Hors ligne" i], .wrapper-1VLyxH[aria-label*="Izvan mreže" i],
+.avatarWrapper[data-status=offline] .wrapper-1VLyxH {
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-offline-color);
+}
+
+.wrapper-1VLyxH[style*="80px"], .wrapper-1VLyxH[style*="120px"] {
+  border-width: 0px;
+  margin-top: 7.5px;
+  margin-left: 7.5px;
+}
+
+#app-mount .wrapper-1VLyxH.StatusEverywhere-avatar-chatAvatar {
+  margin: 0;
+}
+#app-mount .avatarWrapper {
+  border-radius: var(--rs-avatar-shape);
+}
+#app-mount .avatarWrapper .pointerEvents-9SZWKj {
+  stroke: var(--status-color) !important;
+}
+#app-mount .avatarWrapper .pointerEvents-9SZWKj[width="30"] {
+  width: calc(100% - 9px) !important;
+}
